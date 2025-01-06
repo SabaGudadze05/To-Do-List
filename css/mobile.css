@@ -1,0 +1,39 @@
+@media (max-width: 376px){
+    .main_section{
+        padding-inline: 24px;
+    }
+    .main_section_title{
+        font-size: 20px;
+    }
+    .main_section_to_do_adding_listing{
+        gap: 16px;
+    }
+    .main_section_to_do_section{
+        gap: 16px;
+    }
+    .add_button{
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+    }
+    .todo-input{
+        font-size: 14px;
+    }
+    .to_do_elements{
+        gap: 16px;
+    }
+    .todos_list_section{
+        gap: 16px;
+    }
+    .to_do_tittle{
+        font-size: 16px;
+    }
+    .x_icon{
+        font-size: 14px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+}

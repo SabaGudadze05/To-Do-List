@@ -1,0 +1,69 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/pc.css" />
+        <link rel="stylesheet" href="./css/mobile.css" />
+        <link rel="shortcut icon" href="./imgs/checklist-1295319_640.webp" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/396dc8a075.js" crossorigin="anonymous"></script>   
+        <title>ToDoList</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="img_section">
+                <img
+                    src="./imgs/Bitmap.png"
+                    alt="back_img"
+                    class="img_section_img"
+                />
+            </section>
+            <section class="main_section">
+                <section class="main_section_first_section">
+                    <h1 class="main_section_title">TODO</h1>
+                    <img src="./imgs/Combined Shape.svg" alt="" />
+                </section>
+                <section class="main_section_to_do_adding_listing">
+                <section class="main_section_to_do_section">
+                    <button class="add_button" id="adding_button">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                    <input
+                    type="text"
+                    class="todo-input default_color"
+                    placeholder="Create a new todo..."
+                    id="todo_value"
+                    />
+                    </section>
+                        <section class="to_do_elements">
+                            <section class="for_to_do_adding" id="todo_add">
+                                <!-- <section class="todo_and_delete_icon">
+                                    <section class="todos_list_section">
+                                        <button class="add_button" >
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                        <p class="to_do_tittle">
+                                            Jog around the park
+                                        </p>
+                                        </section>
+                                        <i class="fa-solid fa-x x_icon"></i>
+                                </section> -->
+                            </section>
+                            <footer class="footer">
+                            <nav>
+                                <ul class="footer_ul">
+                                    <li class="fotoet_nav_ul_li active" id = "all">All</li>
+                                    <li class="fotoet_nav_ul_li" id="active">Active</li>
+                                    <li class="fotoet_nav_ul_li" id="completed">Completed</li>
+                                </ul>
+                            </nav>
+                            <p class="footer_clear_p" id="clear_all">Clear Completed</p>
+                            </footer>
+                        </section>
+                </section>
+                </section>
+            </section>
+        </div>
+        <script src="./src/main.js"></script>
+    </body>
+</html>
